@@ -1,0 +1,19 @@
+package com.github.gkttk.webCrawler.configuration;
+
+import com.github.gkttk.webCrawler.crawler.WebCrawler;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@EnableAutoConfiguration
+public class WebConfig {
+
+    @Bean
+    public WebCrawler webCrawler(){
+        return new WebCrawler();
+    }
+
+
+
+}
