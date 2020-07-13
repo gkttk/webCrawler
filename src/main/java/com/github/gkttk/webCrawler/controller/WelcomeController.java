@@ -1,8 +1,7 @@
 package com.github.gkttk.webCrawler.controller;
 
-import com.github.gkttk.webCrawler.dto.CrawlingResult;
 import com.github.gkttk.webCrawler.crawler.WebCrawler;
-import org.springframework.context.annotation.Scope;
+import com.github.gkttk.webCrawler.dto.CrawlingResult;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
